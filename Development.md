@@ -13,3 +13,21 @@ Here's a list of important things you should note!
 - [/Config/kpvToCsv.js](./Config/kpvToCsv.js), the exports config file.
 - [/Routes/ScoutComponents](/Routes/ScoutComponents), the actual scout page you'll need to update.
 
+## Upgrading
+
+Every now and then, you'll need to update all the dependencies.
+Expo in particular sometimes needs to be upgraded. You can see the install guide [here](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/).
+
+After upgrading, try running the app with `expo start --localhost --web`.
+If you see any messages like `Some of your project's dependencies are not compatible with currently installed expo package version:`,
+just re-install the right version with `expo install nameOfOutdatedPackage`.
+
+Don't bother running `npm audit fix`, the vulnerabilites npm usually complains about don't apply to our app.
+
+## Adding New Input
+
+We have some components you can re-use to add new inputs. Here are the most common ones:
+
+```javascript
+<BoolButton id="TimerClicked" bgc="lime" width={100} press={callback}></BoolButton>
+```
