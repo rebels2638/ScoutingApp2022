@@ -1,5 +1,5 @@
 # Scouting App 2022 Edition
-Team 2638's Scouting App for the year 2022!
+brand spankin' new Team 2638's Scouting App for the year 2022!
 New and improved! A Scouting App so shiny if you look at it for too long it'll stare into your soul.
 We now have custom themes available! Light, dark, and a funky fresh green theme available in the About page.
 
